@@ -1,8 +1,9 @@
+// app/page.tsx
 export default function Home() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "Arial, sans-serif", color: "#fff" }}>
+    <main style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
       <h1>Welcome to LinkAllAI</h1>
-      <p>Your AI multi-model comparison app is coming soon!</p>
+      <p>This is the homepage of your AI Comparison App.</p>
     </main>
   );
 }
