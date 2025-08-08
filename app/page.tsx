@@ -35,7 +35,7 @@ const MODELS = [
   {
     key: 'metaai',
     name: 'Meta AI',
-    logo: '/logos/metaai.png',
+    logo: '/logos/meta.png',
     bubble: true,
   },
 ];
