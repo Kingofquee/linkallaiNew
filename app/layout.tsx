@@ -1,13 +1,14 @@
-// app/layout.tsx
 export const metadata = {
   title: "LinkAllAI",
-  description: "Compare the top AI models easily",
+  description: "Compare AI models in one place",
 };
+
+import "./globals.css";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body style={{ margin: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
